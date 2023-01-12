@@ -1,0 +1,498 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-BR" data-product="alura">
+
+<!-- Mirrored from cursos.alura.com.br/loginForm?urlAfterLogin=https://cursos.alura.com.br/dashboard by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Jan 2023 16:14:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google Tag Manager -->
+<script>
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer', 'GTM-TN542JN');
+</script>
+<!-- End Google Tag Manager -->
+
+	<script type="text/javascript">
+        dataLayer.push({
+            'tipoPagina': 'Plataforma',
+            
+        });
+	</script>
+
+<!-- Google Tag Manager -->
+<script>
+	;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayerAlura','GTM-NTLWWLR');
+</script>
+<!-- End Google Tag Manager -->
+
+
+    <script>
+        let dataLayerAlura = window.dataLayerAlura || [];
+        dataLayerAlura.push({
+            'event': 'virtual_page_view',
+            'page_category': 'Login',
+            
+        });
+    </script>
+
+	<title>Criando Software</title>
+
+	<link rel="shortcut icon" href="{% static 'assets/images/alura/icone.ico' %}">
+
+	
+		<meta name="description" content="Já estuda com a gente?">
+	
+
+	<link href='../fonts.googleapis.com/css3978.css?family=Lato:400,700,400italic,700italic|Open+Sans:400,300,600,700,800|Source+Serif+Pro' rel='stylesheet'>
+	<link rel="preconnect" href="../fonts.gstatic.com/index.html">
+	
+
+	
+
+	<link rel="stylesheet" href="{% static 'assets/css/lib/prettify.9c184279.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/external-libs/highlightjs/github.css' %}">
+
+	<link rel="stylesheet" href="{% static 'assets/css/base.f643e441.css' %}">
+
+	<link rel="stylesheet" href="{% static 'assets/css/block/container.1051fe48.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/header.b9ac2486.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/headerDesktop.4ea97cd1.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/headerNews.cc911c64.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/headerList.9aa6d5f9.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/headerUnlogged.81e3534b.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/footer.4ce7d3a8.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/checkbox.c4121c6c.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/paginator.1d935151.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/profileAvatar.c1c04ab9.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/contentBox.b73ece0c.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/contentBoxWithBanner.8a8b9fb2.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/courseLogo.37e328c1.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/courseSectionList.514580bb.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/button.696662cd.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/seeMoreButton.b1d5c079.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/progressBar.f194a6ce.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/progressBall.eb059a2c.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/showOpenAnswerExercise.35da852c.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/showMultipleChoiceAnswerExercise.564704cc.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/card.6e071ea1.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/lightCard.900e3331.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/cardList.447e11d7.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/courseCard.2262238d.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/learningGuidePercentageCard.cf406a56.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/courseCardList.e4ff1685.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/learningGuideCardList.01949667.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/courseCardBig.3efbae12.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/courseRateCard.d2ad4b29.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/cardCategory.3106730f.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/alert.ac7763fe.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/careerHeader.fdbca180.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/careerCourses.77942983.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/learningStepContentList.7e354cbf.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/levelMenu.7a9febf7.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/pointsGraphic.ffca8e63.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/forumDiscussions.e4dba666.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/forumList.32adddf0.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/sectionContent.f5ce413c.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/sectionVideo.fe961a3e.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/sectionMenu.893df38e.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/elasticMedia.f91fc855.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/formattedText.e58775de.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/exerciseContent.832eedc0.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/starRating.068da9d2.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/markdownEditor.600de57a.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/styledSelect.597181e1.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/assessment.0162ef24.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/audioPlayer.0a362c88.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/search.fed4f0f3.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/banner.608f7292.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/bannerDetails.d9eef24d.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/vote.97862edb.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/form.06dd7fe8.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/modal.509c233d.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/learningGuideProgresses.4be87b2e.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/learningGuideCard.11e26961.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/progressTracker.d234ab44.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/courseCard.2262238d.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/companyLayoutCustomization.0d33ce2e.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/block/breadcrumb.e7a9d8ef.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/pages/discussion/topic-breadCrumb.d4b41a33.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/unloggedHome/licenseAgreement.19f5fba4.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/unloggedHome/alertLicenseCard.4e8bf8c4.css' %}">
+
+	
+    <link rel="stylesheet" href="{% static 'assets/css/alura/login/loginForm.582d2f5d.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/alura/login/loginFormDark.e50079d3.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/alura/login/loginFormSSO.18f42b58.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/category/newCategoryCard.2d9d28f2.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/block/subscriptionCard.b70a6dfe.css' %}">
+    <link rel="canonical" href="loginForm.html">
+
+    <link href="../fonts.googleapis.com/css25a16.css?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+
+    
+
+
+	<link rel="stylesheet" href="{% static 'assets/css/classPage/dark-mode.e5082fbf.css' %}">
+
+	
+		<link rel="stylesheet" href="{% static 'assets/css/block/headerAluraDark.633fb722.css' %}">
+		<link rel="stylesheet" href="{% static 'assets/css/aluradark/aluradarkTheme.ef0f7f69.css' %}">
+	
+
+</head>
+
+<body class=" ">
+<script src="{% static 'assets/js/avatarOnError.50477882.js' %}"></script>
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN542JN"
+				  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTLWWLR"
+				  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script src="{% static 'assets/js/courseIconFallback.f6bcc78f.js' %}"></script>
+
+<style type="text/css">
+    .headerBusca {
+        background: #2A7AE4;
+    }
+
+    .headerBusca-form button {
+        color: #2A7AE4;
+    }
+
+    .headerBusca-icon {
+        border: 2px solid #2A7AE4;
+        background-color: #2A7AE4;
+    }
+    
+</style>
+
+<section id="headerBusca" class='headerBusca headerBusca-desktop'>
+    <div class="container">
+        
+    </div>
+</section>
+
+
+<header class="header headerDesktop" style="border-top: 4px solid #2A7AE4">
+    <div class="container">
+        <div class="header-logo--wrapper ">
+            <a href="" style="font-size:28px;text-decoration: none;font-family:New Century Schoolbook, TeX Gyre Schola, serif;">
+                <!--<img class="header-logo header-logo-alura" src="logo.png" alt="alura">-->
+                Criando Software
+            </a>
+ 
+        </div>
+
+    <div class="headerUnlogged">
+        
+            <div class="headerUnlogged-cta">
+                <span class="headerUnlogged-cta-text bootcamp-text-color">
+                    Já é nosso cliente? 
+                </span>
+                <a class="headerUnlogged-cta-button headerUnlogged-cta-button bootcamp-primary-button-theme" href="">Login</a>
+            </div>
+        
+    </div>
+    
+    </div>
+</header>
+
+<div class="natural-header" style="border-top: 4px solid #2A7AE4;">
+    
+    <a href="" style="font-size:22px;text-decoration: none;font-family:New Century Schoolbook, TeX Gyre Schola, serif;">
+        Criando Software
+    </a>
+
+    <div class="headerUnlogged">
+        
+            <div class="headerUnlogged-cta">
+                <span class="headerUnlogged-cta-text bootcamp-text-color">
+                    Já é nosso cliente?
+                </span>
+                <a class="headerUnlogged-cta-button headerUnlogged-cta-button bootcamp-primary-button-theme" href="">Login</a>
+            </div>
+        
+    </div>
+
+</div>
+
+<div class="natural-header natural-header--company">
+ 
+</div>
+
+<div class="container login-form-dark-wrapper">
+    
+
+    
+    <section class="sign">
+        <section class="signin signin-dark-form">
+            <h1 class="title">Fale agora com um especialista</h1>
+            <p class="subtitle">Informe seus dados aqui</p>
+            
+            <form class="signin-form" action="{% url 'index' %}" method="POST">
+                {% csrf_token %}          
+                
+                <input type="hidden" name="urlAfterLogin" value='loginFormce71.html' >
+
+                <label for="Nome" class="dark-label signin-dark--bold">Nome</label>
+                <input class="fill-with-cached-email dark-input " type="text" required name="username" id="nome_acesso" value="" autofocus placeholder="Exemplo: Maria Francisca"/>
+
+                <label for="login-email" class="dark-label signin-dark--bold">E-mail</label>
+                <input class="fill-with-cached-email dark-input " type="email" required name="useremail" id="login-email" value="" autofocus placeholder="Exemplo: clientesatisfeito@email.com"/>
+
+                <div id="form-default">
+                    <label for="telefone" class="dark-label signin-dark--bold">Telefone</label>
+                    <input type="tel" class="dark-input " required name="telefone" id="password" placeholder=" Exemplo: (99) 99999-9999" />
+
+                    <input type="hidden" name="uriOnError" value="" />
+
+                    <button class="btn-login btn-principal-form-dark" type="submit">
+                        Solicitar mais informações...
+                    </button>
+
+                    <div class="signin-form-btn-sso">
+                        <a class="btn-facebook-login btn-social-login btn-login-sso-dark" href="https://web.whatsapp.com/send?phone=11945293408&text=teste" style="background: #45cf0e;">
+                            WhatsApp  <img src="{% static 'whats.png' %}" height="15" width="15">
+                        </a>      
+                   </div>
+
+                </div>
+
+            </form>
+        </section>
+
+
+        <section class="signup-invite">
+            <h2 class="signup-invite-title">O que você ou seu negócio precisa <br> Está aqui!</h2>
+            <p class="signup-invite-text">Escolha o produto que deseja:</p>
+
+
+<div class="category-cardList ">
+    
+            <div class="categories__wrapper__cards">
+                
+                <a class="categories__link--home" href=''>
+                    <div class="categories__link-wrapper--home">
+                        <div class="categories__texts">                            
+                            <h4 class="categories__link__category-name" style="color: #00c86f">Web Scraping</h4>
+                            <span class="categories__link__text" style="color: #00c86f">Criação e manutenção</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="categories__wrapper__cards">
+                
+                <a class="categories__link--home" href=''>
+                    <div class="categories__link-wrapper--home">
+                        <div class="categories__texts">                            
+                            <h4 class="categories__link__category-name" style="color: #6bd1ff">Web Crawler</h4>
+                            <span class="categories__link__text" style="color: #6bd1ff">Criação e manutenção</span>
+                        </div>
+                    </div>
+                </a>                
+            </div>
+    
+            <div class="categories__wrapper__cards">
+                
+                <a class="categories__link--home" href=''>
+                    <div class="categories__link-wrapper--home">
+                        <div class="categories__texts">                            
+                            <h4 class="categories__link__category-name" style="color: #9cd33b">Site</h4>
+                            <span class="categories__link__text" style="color: #9cd33b">Criação e manutenção</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="categories__wrapper__cards">
+                
+                <a class="categories__link--home" href=''>
+                    <div class="categories__link-wrapper--home">
+                        <div class="categories__texts">                            
+                            <h4 class="categories__link__category-name" style="color: #f16165">Django</h4>
+                            <span class="categories__link__text" style="color: #f16165">Criação e manutenção</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="categories__wrapper__cards">
+                
+                <a class="categories__link--home" href=''>
+                    <div class="categories__link-wrapper--home">
+                        <div class="categories__texts">
+                            <h4 class="categories__link__category-name" style="color: #dc6ebe">Scripts em python</h4>
+                            <span class="categories__link__text" style="color: #dc6ebe">Criação e manutenção</span>                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="categories__wrapper__cards">
+                
+                <a class="categories__link--home" href=''>
+                    <div class="categories__link-wrapper--home">
+                        <div class="categories__texts">                            
+                            <h4 class="categories__link__category-name" style="color: #ffba05">Engajamento de sites e aplicativos</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="categories__wrapper__cards">
+                
+                <a class="categories__link--home" href=''>
+                    <div class="categories__link-wrapper--home">
+                        <div class="categories__texts">
+                            <h4 class="categories__link__category-name" style="color: #ff8c2a">Desenvolvedor Python</h4>
+                            <span class="categories__link__text" style="color: #ff8c2a">Curso</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    
+</div>
+
+            <div class="defaultBlue-card-wrapper">
+                <div class="defaultBlue-card-content">
+                    <p>Criando Software</p>
+                    <p class="defaultBlue-card-subtitle--spacing">É um prazer fazer parte do seu <br>Sucesso!</p>
+                </div>
+            </div>
+        </section>
+
+    </section>
+</div>
+
+<div class="signin-form-stripe">
+</div>
+
+
+
+
+
+
+
+<footer class="footer container">
+	<a href="" style="font-size:28px;text-decoration: none;font-family:New Century Schoolbook, TeX Gyre Schola, serif;">
+        <!--<img class="header-logo header-logo-alura" src="logo.png" alt="alura">-->
+        Criando Software
+    </a>
+
+	<ul class="footer-menu">
+		
+		<li class="footer-menu-item">
+			<a class="footer-menu-item-link" href="" target="">Sobre nós</a>
+		</li>
+		
+		<li class="footer-menu-item">
+			<a class="footer-menu-item-link" href="" target="_blank">Dúvidas frequentes</a>
+		</li>
+		
+		<li class="footer-menu-item">
+			<a class="footer-menu-item-link" href="" target="_blank">Desenvolvedor freelancer</a>
+		</li>
+		
+		<li class="footer-menu-item">
+			<a class="footer-menu-item-link" href="" target="_blank">Desenvolvedor CLT</a>
+		</li>
+		
+		<li class="footer-menu-item">
+			<a class="footer-menu-item-link" href="" target="_blank">Suporte</a>
+		</li>
+		
+		
+	</ul>
+
+	<section role="presentation" class="footer-footerGroup">
+		
+			<div class="footer-links">
+				<h2 class="footer-links-title">jefferson.programador.pro@gmail.com</h2>
+				<ul role="presentation" class="footer-socialMedia">
+					
+					<li class="footer-socialMedia-item">
+						<a class="footer-socialMedia-item-link" href="" target="_blank" title="Youtube da Alura">
+							<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-youtube">
+								<use xlink:href="assets/images/icons-redes-hipster.svg#icon-footer-youtube"/>
+							</svg>
+						</a>
+					</li>
+					
+					<li class="footer-socialMedia-item">
+						<a class="footer-socialMedia-item-link" href="" target="_blank" title="Facebook da Alura">
+							<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-facebook">
+								<use xlink:href="assets/images/icons-redes-hipster.svg#icon-footer-facebook"/>
+							</svg>
+						</a>
+					</li>
+					
+					<li class="footer-socialMedia-item">
+						<a class="footer-socialMedia-item-link" href="" target="_blank" title="Twitter da Alura">
+							<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-twitter">
+								<use xlink:href="assets/images/icons-redes-hipster.svg#icon-footer-twitter"/>
+							</svg>
+						</a>
+					</li>
+					
+					<li class="footer-socialMedia-item">
+						<a class="footer-socialMedia-item-link" href="" target="_blank" title="Podcast Hipsters Ponto Tech">
+							<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-hipsters">
+								<use xlink:href="assets/images/icons-redes-hipster.svg#icon-footer-hipsters"/>
+							</svg>
+						</a>
+					</li>
+					
+					<li class="footer-socialMedia-item">
+						<a class="footer-socialMedia-item-link" href="" target="_blank" title="Instagram da Alura">
+							<svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-instagram">
+								<use xlink:href="assets/images/icons-redes-hipster.svg#icon-footer-instagram"/>
+							</svg>
+						</a>
+					</li>
+					
+				</ul>
+			</div>		
+	</section>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+<link href="assets/css/uploadImages/uploadImages.7c1a29db.css" rel="stylesheet" />
+
+</body>
+</html>
